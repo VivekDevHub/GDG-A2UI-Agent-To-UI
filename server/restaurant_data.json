@@ -1,0 +1,113 @@
+{
+  "restaurant": {
+    "name": "McDonald's India (Hardcastle Restaurants) #1042",
+    "address": "Linking Road, Bandra West, Mumbai, Maharashtra 400050",
+    "kioskId": "Kiosk #04",
+    "phone": "+91 22 2640 1234",
+    "gstin": "27AAACM0000A1Z5",
+    "fssai": "10014022003120"
+  },
+  "categories": [
+    { "id": "meals", "name": "🍔 Extra Value Meals" },
+    { "id": "burgers", "name": "🥪 Burgers & Wraps" },
+    { "id": "sides", "name": "🍟 Sides & McPuff" },
+    { "id": "beverages", "name": "🥤 Beverages & McCafé" },
+    { "id": "desserts", "name": "🍦 Desserts & Shakes" }
+  ],
+  "meals": [
+    {
+      "id": "mcd-mcspicy-paneer",
+      "name": "McSpicy™ Paneer Meal",
+      "category": "meals",
+      "isVeg": true,
+      "price": 329.0,
+      "calories": 980,
+      "description": "Rich & crunchy paneer patty marinated with spicy batter, tandoori sauce & lettuce. Served with Fries & Beverage.",
+      "imageUrl": "https://images.unsplash.com/photo-1520072959219-c595dc870360?w=700&auto=format&fit=crop&q=80",
+      "tags": ["spicy", "paneer", "veg", "bestseller"]
+    },
+    {
+      "id": "mcd-maharaja-mac",
+      "name": "Chicken Maharaja Mac™ Meal",
+      "category": "meals",
+      "isVeg": false,
+      "price": 379.0,
+      "calories": 1050,
+      "description": "The King of Burgers! Double decker flame-grilled chicken patties, habanero sauce, crunchy jalapeños & cheese.",
+      "imageUrl": "https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=700&auto=format&fit=crop&q=80",
+      "tags": ["double", "chicken", "habanero", "bestseller"]
+    },
+    {
+      "id": "mcd-mcspicy-chicken",
+      "name": "McSpicy™ Chicken Meal",
+      "category": "meals",
+      "isVeg": false,
+      "price": 349.0,
+      "calories": 920,
+      "description": "Tender crunchy fried chicken patty with spicy pepper sauce & lettuce in toasted sesame bun.",
+      "imageUrl": "https://images.unsplash.com/photo-1625813506062-0aeb1d7a094b?w=700&auto=format&fit=crop&q=80",
+      "tags": ["spicy", "chicken", "crispy"]
+    },
+    {
+      "id": "mcd-mcaloo-tikki",
+      "name": "McAloo Tikki™ Value Meal",
+      "category": "meals",
+      "isVeg": true,
+      "price": 179.0,
+      "calories": 750,
+      "description": "Crispy potato & peas patty with sweet tomato mayo, fresh onions & tomatoes in a warm bun.",
+      "imageUrl": "https://images.unsplash.com/photo-1525059696034-4967a8e1dca2?w=700&auto=format&fit=crop&q=80",
+      "tags": ["aloo", "classic", "veg", "budget"]
+    }
+  ],
+  "customizations": {
+    "sizes": [
+      { "id": "medium", "name": "Medium Meal (Included)", "extraPrice": 0 },
+      { "id": "large", "name": "🍟 Large Meal (+ ₹40)", "extraPrice": 40.0 }
+    ],
+    "beverages": [
+      { "id": "thums_up", "name": "⚡ Thums Up (Taste the Thunder)", "extraPrice": 0 },
+      { "id": "coke_zero", "name": "🥤 Coca-Cola Zero Sugar", "extraPrice": 0 },
+      { "id": "sprite", "name": "🍋 Sprite", "extraPrice": 0 },
+      { "id": "iced_coffee", "name": "☕ McCafé Iced Coffee (+ ₹30)", "extraPrice": 30.0 }
+    ],
+    "addons": [
+      { "id": "piriPiri", "name": "🌶️ Piri Piri Spice Mix Shake Shake", "price": 25.0 },
+      { "id": "extraCheese", "name": "🧀 Extra Sliced Cheese Slice", "price": 35.0 },
+      { "id": "noOnion", "name": "🧅 No Onions (Jain Friendly)", "price": 0 },
+      { "id": "extraSauce", "name": "Extra Tandoori / Spicy Mayo", "price": 20.0 }
+    ]
+  },
+  "payment_options": [
+    {
+      "id": "card_visa_master",
+      "label": "💳 Visa / Mastercard Credit or Debit Card",
+      "type": "card",
+      "icon": "credit_card"
+    },
+    {
+      "id": "card_rupay",
+      "label": "🇮🇳 RuPay Platinum Debit / Credit Card",
+      "type": "card",
+      "icon": "rupay"
+    },
+    {
+      "id": "card_amex",
+      "label": "💎 American Express Card",
+      "type": "card",
+      "icon": "amex"
+    },
+    {
+      "id": "upi_gpay",
+      "label": "⚡ Google Pay / PhonePe UPI",
+      "type": "upi",
+      "icon": "upi"
+    },
+    {
+      "id": "apple_pay",
+      "label": "📱 Apple Pay / Contactless Tap",
+      "type": "contactless",
+      "icon": "tap"
+    }
+  ]
+}

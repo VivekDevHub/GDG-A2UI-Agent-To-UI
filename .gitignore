@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+*/node_modules/
+package-lock.json.backup
+
+# Production & Build outputs
+dist/
+*/dist/
+build/
+*/build/
+.vite/
+*/.vite/
+.tsbuildinfo
+
+# Python virtual environments & bytecode
+venv/
+*/venv/
+env/
+*/env/
+ENV/
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Operating System & IDE files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
